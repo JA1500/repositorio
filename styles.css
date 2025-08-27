@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+body {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-weight: 200;
+  background-color: aquamarine;
+}
+
+h1 {
+  background-color: aqua;
+}
+
+/* Estilo base para todos los divs */
+.cuadro, .circulo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 3px solid cornflowerblue;
+}
+
+/* Formas */
+.circulo {
+  border-radius: 50%;
+}
+
+/* Colores */
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.verde {
+  background-color: green;
+}
